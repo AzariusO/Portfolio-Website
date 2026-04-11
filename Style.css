@@ -116,7 +116,6 @@ header {
     justify-content: center;
 }
 
-/* Project Card */
 .card {
     background: white;
     border-radius: 12px;
@@ -128,9 +127,6 @@ header {
 	color: black;
 }
 
-/* --- Animations --- */
-
-/* 1. Lift and Glow on Hover */
 .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
@@ -170,7 +166,7 @@ header {
     opacity: 1;
 }
 
-/* Content Styling */
+
 .card-content {
     padding: 1.5rem;
 }
@@ -212,7 +208,6 @@ header {
 	color: black;
 }
 
-/* Sidebar Styling */
 .sidebar {
     flex: 0 0 300px;
     background-color: var(--primary-color);
@@ -240,7 +235,7 @@ aside {
     list-style: none;
 }
 
-/* Main Content Styling */
+
 .main-content {
     flex: 1;
     padding: 40px;
@@ -299,7 +294,7 @@ section h2 {
     padding-left: 20px;
 }
 
-/* Responsive Design for Mobile */
+
 @media (max-width: 768px) {
     .resume-container {
         flex-direction: column;
@@ -318,7 +313,7 @@ section h2 {
 }
 
 
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -328,7 +323,7 @@ section h2 {
 
 
 
-/* Background Decoration */
+
 .background-blob {
     position: absolute;
     width: 500px;
@@ -345,7 +340,7 @@ section h2 {
     to { transform: translate(30%,  30%); }
 }
 
-/* Container Design */
+
 .contact-container {
     display: flex;
     width: 900px;
@@ -361,7 +356,7 @@ section h2 {
 	transform: translate(90%, 60%);
 }
 
-/* Left Side: Info */
+
 .contact-info {
     flex: 1;
     padding: 40px;
@@ -458,7 +453,6 @@ section h2 {
     box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .contact-container {
         flex-direction: column;
